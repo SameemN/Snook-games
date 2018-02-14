@@ -1,6 +1,11 @@
 var currentScene;
 var blockSize = 20;
 
+void setup() {
+  size(600, 600);
+  frameRate(90)
+}
+
 var blockFood = {
     X: random(0, 600), 
     Y: random(0, 600),
